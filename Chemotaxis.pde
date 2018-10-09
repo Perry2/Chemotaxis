@@ -2,7 +2,7 @@ Bacteria bob[];
 void setup()   
  {     
  	size(500,500);
- 	bob = new Bacteria[500];
+ 	bob = new Bacteria[250];
  	for (int i = 0; i < bob.length; i++)
  	{
  		bob[i] = new Bacteria((int)(Math.random()*500),0);
